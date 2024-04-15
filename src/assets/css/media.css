@@ -1,0 +1,67 @@
+@media (min-width: 320px) and (max-width: 770px) {
+  .image-desktop {
+    display: none;
+  }
+  .image-mobile {
+    display: block;
+    width: 100%;
+  }
+  .container {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .image {
+    padding-right: 0;
+  }
+  .login-form {
+    padding-left: 0;
+  }
+  .login-form-header h1 {
+    font-size: 24px;
+  }
+  .login-form-header span {
+    font-size: 15px;
+  }
+  .authorization-form {
+    font-size: 16px;
+    width: 100%;
+  }
+  .authorization-form span {
+    font-size: 18px;
+    padding-left: 80px;
+  }
+  .auth-form-link {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 990px) {
+  .image-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .image {
+    max-height: 100vh;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .image-mobile {
+    display: none;
+  }
+  .login-form {
+    max-width: 60%;
+    padding-left: 50px;
+  }
+  .authorization-form {
+    width: 80%;
+  }
+  .image {
+    max-height: 1076px;
+    max-width: 100%;
+    padding-right: 40px;
+  }
+}
